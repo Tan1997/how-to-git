@@ -6,5 +6,5 @@ class Solution:
             if i in dic:
                 stack.append(i)
             elif dic[stack.pop()] != i:
-                return False
 # 测试修改后的结果
+print("增加测试")
