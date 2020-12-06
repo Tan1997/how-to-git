@@ -7,4 +7,3 @@ class Solution:
                 stack.append(i)
             elif dic[stack.pop()] != i:
                 return False
-    return len(stack) == 1
